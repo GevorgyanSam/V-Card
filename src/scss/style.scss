@@ -12,12 +12,11 @@
     outline: none;
     text-decoration: none;
     list-style: none;
-    user-select: none;
 }
 
 *::selection {
     color: white;
-    background-color: #5c1c94;
+    background-color: #54128d;
 }
 
 body {
@@ -52,6 +51,7 @@ body {
         border-radius: 50%;
         padding: 3px;
         border: 2px solid rgba(255, 255, 255, 0.4);
+        user-select: none;
 
         img {
             height: 100%;
